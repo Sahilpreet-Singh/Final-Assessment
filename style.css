@@ -1,0 +1,162 @@
+/*
+    WEB222 – Final Assessment
+    
+    Name: Sahilpreet Singh
+    StudentID: 106413214
+    Date: 2022-04-13
+    Professor: Noman Atique
+ */
+
+ html {
+   text-align:center;
+   background-color: yellowgreen;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   flex-flow: row wrap;
+   width:90%;
+   max-width: 1100px;
+   margin-left:45px ;
+   margin-right:25px;
+  }
+
+ body {
+   margin-left:25px ;
+   margin-right:25px;
+   text-align:center;
+  }
+
+
+  #photo h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    color: white;
+    font-weight:bolder;
+    background-color:yellow;
+  }
+
+  #photo h6{
+    font-family:inherit;
+    font-size: 22px;
+    color: white;
+    font-weight: lighter;
+  }
+
+#photo >img{
+  padding-top: 75px;
+  width:280px;
+  height: 350px;
+}
+
+
+.buttons{
+  font-size: 10px;
+}
+
+
+.buttons > button:hover {
+  background-color: lightblue;
+}
+
+button{
+  width:150px;
+  height:60px;
+}
+
+#resume{
+  border-radius:24px;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  margin-right: 15px;
+}
+
+#contact-me{
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius:24px;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+}
+
+#myintroductiontable {
+  table-layout: fixed;
+  width: 800px;
+  border: none;
+  margin:auto;
+  padding: 10px 25px;
+ }
+
+
+#aboutme{
+  margin-top: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  background-color:white;
+  text-align: left;
+}
+
+#education{
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color:white;
+  text-align: left;
+}
+
+#education th{
+  border-collapse: collapse;
+  text-align: left;
+  border-collapse: collapse;
+  background-color: orangered;
+  padding:5px 9px;
+  font-size:14px;
+  font-weight:normal;
+  font-size:18px;
+  width: 50px;
+  height: 150px;
+  background-color:white;
+  text-align:left;
+}
+
+#education table{
+
+  table-layout: fixed;
+  width: 900px;
+  border: none;
+  padding: 10px 25px;
+  margin-top: 5px;
+  margin-top: 5px;
+}
+
+
+#contactmeform{
+  font-size: 28px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color:white;
+  text-align:center;
+}
+
+
+label{
+  display: inline-block;
+  width:150px;
+  height: 25px;
+  line-height: 75px;
+  text-align: justify;
+  text-align-last: justify;
+  font-size: 22px;
+  font-weight: bolder;
+  margin-top: 1px;
+}
+
+.text-danger{
+  color: red;
+  padding-right: 10px;
+}
